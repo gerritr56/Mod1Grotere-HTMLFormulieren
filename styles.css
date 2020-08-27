@@ -1,0 +1,53 @@
+body {
+        color: black;
+        font-family: sans-serif;
+        line-height: 1.6em;
+}
+
+
+.container {
+    margin: 0 auto;
+    width: 500px;
+    text-align: center;
+    }
+
+.box-1 {
+    background-color: darkgrey;
+    color: rgb(4, 4, 122);    
+    border: 3px solid rgb(4, 4, 122);
+    font-weight: 800;
+    letter-spacing: 0.1em;
+    word-spacing: 0.2em;
+    margin-bottom: 2em;
+}
+
+.form-rec {
+    padding: 20px;
+
+}
+
+.form-group {
+    display: block;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    
+}
+
+label {
+    display: block;
+    padding-top: 10px;
+}
+
+.input1 {
+    padding: 8px;
+    width: 50%;
+}
+
+@media (min-width: 1024px) {
+    body {
+        background-color: rgb(247, 238, 197);
+        color: rgb(60, 18, 248);
+        font-size: 12px;
+        line-height: 10px;
+   }
+}

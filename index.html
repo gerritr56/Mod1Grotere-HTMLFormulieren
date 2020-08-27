@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- Receptformulier -->
+    <title> Recept </title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="box-1">
+            <header>
+                <h1>Receptensite</h1>
+            </header>
+        </div>
+    </div>
+    <hr>
+
+    <form class="form-rec" name="Receptform" method="POST" data-netlify="true">
+        <div class="form-group">
+            <label>Naam: </label><input class="input1" type="text" name="Naam">
+            <label>E-mail: </label><input class="input1" type="email" name="E-mail" />
+            <label>Telefoon: </label><input class="input1" type="tel" name="Telefoon" />
+            <label>Leeftijd: </label><input class="input1" type="text" name="Leeftijd" />
+            <label>Geboortedatum: </label><input type="date" name="Geboortedatum" />
+        </div>
+        <div>
+            <label>
+                Man: <input type="radio" name="Gender" />
+                Vrouw: <input type="radio" name="Gender" />
+                Neutraal: <input type="radio" name="Gender" />
+            </label>
+        </div>
+        <div class="form-group">
+            <label>
+                Favoriete cuisine:
+                Frans: <input type="checkbox" name="Frans" />
+                Italiaans: <input type="checkbox" name="Italiaans" />
+                Spaans: <input type="checkbox" name="Spaans" />
+                Arabisch: <input type="checkbox" name="Arabisch" />
+            </label>
+            <label>Favoriete kleur van short: <input type="color" name="Shortkleur"></label>
+            <label>Biografie: </label><textarea name="Biografie"></textarea>
+            <label>Upload je laatste recept: <input type="file" name="Uploa dfile"></label>
+            <label>Url naar je recepten website: <input type="url" name="URL"></label>
+            <label>Reset: <input type="reset" name="Reset"></label><br>
+            <button type="submit">Verstuur</button>
+        </div>
+
+    </form>
+</body>
+
+
+</html>
